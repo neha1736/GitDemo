@@ -9,9 +9,10 @@ public class ArrayLesson1 {
 		a[1] = 7;
 		a[2] = 10;
 		a[3] = 2;
-		
+		System.out.println("---printing all the elements of array---");
+
 		for (int i = 0; i< a.length; i++) {
-			System.out.println(a[i]);
+						System.out.println(a[i]);
 		}
 
 	}
